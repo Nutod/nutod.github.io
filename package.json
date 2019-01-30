@@ -1,6 +1,7 @@
 {
 	"name": "nutod-portfolio",
 	"version": "0.1.0",
+	"homepage": "nutod.github.io",
 	"private": true,
 	"dependencies": {
 		"@types/jest": "^23.3.13",
