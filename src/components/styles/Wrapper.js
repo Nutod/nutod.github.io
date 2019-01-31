@@ -19,7 +19,7 @@ export const HeroWrapper = styled(Wrapper)`
 `;
 
 export const HeroBackground = styled.div`
-	background: ${HeroBG};
+	background: url(${HeroBG});
 	height: 100%;
 	width: 100%;
 	background-repeat: no-repeat;
