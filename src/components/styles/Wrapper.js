@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import HeroBG from "../assets/hero-bg.png";
 
 export const Wrapper = styled.div`
 	height: 100vh;
@@ -18,7 +19,7 @@ export const HeroWrapper = styled(Wrapper)`
 `;
 
 export const HeroBackground = styled.div`
-	background-image: url(hero-bg.png);
+	background: ${HeroBG};
 	height: 100%;
 	width: 100%;
 	background-repeat: no-repeat;
