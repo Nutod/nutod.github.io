@@ -13,7 +13,7 @@ import {
 	CardLink
 } from "../styles/Card";
 
-export default function SideProject() {
+export default function SideProjects() {
 	const state = [
 		{
 			title: "Burger Builder",
