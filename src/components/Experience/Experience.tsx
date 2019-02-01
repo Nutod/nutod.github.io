@@ -13,6 +13,8 @@ import {
 	CardLink
 } from "../styles/Card";
 
+// TODO: Add dynamic import for images for webpack to handle
+
 export default function Experience() {
 	const state = [
 		{
