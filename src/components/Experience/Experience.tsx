@@ -13,9 +13,10 @@ import {
 	CardLink
 } from "../styles/Card";
 import KudiBG from "../assets/kudi-min.png";
+import InstantCleanersBG from "../assets/cleaners-min.png";
+import CaproBG from "../assets/capro-min.png";
 
 // TODO: Add dynamic import for images for webpack to handle
-// TODO: Convert images to png
 
 const data = [
 	{
@@ -28,14 +29,14 @@ const data = [
 	{
 		title: "Instant Cleaners",
 		url: "http://instantcleaners.com",
-		image: "cleaners-min.jpg",
+		image: InstantCleanersBG,
 		from: "#FDC830",
 		to: "#F37335"
 	},
 	{
 		title: "Capro USA",
 		url: "http://caprousa.org",
-		image: "capro-min.jpg",
+		image: CaproBG,
 		from: "#FF4B2B",
 		to: "#FF416C"
 	}
