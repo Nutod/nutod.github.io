@@ -29,8 +29,7 @@ export default function Footer() {
 				Or perhaps a Call
 				<NumberText>0803.769.9140</NumberText>
 				<CopyrightText>
-					&copy; {months[new Date().getMonth()]}, {new Date().getFullYear()}{" "}
-					Oladotun Aluko
+					&copy; {months[new Date().getMonth()]}, {new Date().getFullYear()}
 				</CopyrightText>
 			</div>
 		</FooterWrapper>
