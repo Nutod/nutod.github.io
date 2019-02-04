@@ -14,38 +14,37 @@ import {
 } from "../styles/Card";
 
 // TODO: Add dynamic import for images for webpack to handle
-// TODO: Adjust the fonts
+
+const data = [
+	{
+		title: "Kudi.ai",
+		url: "https://kudi.ai",
+		image: "kudi-min.jpg",
+		from: "#2193b0",
+		to: "#6dd5ed"
+	},
+	{
+		title: "Instant Cleaners",
+		url: "http://instantcleaners.com",
+		image: "cleaners-min.jpg",
+		from: "#FDC830",
+		to: "#F37335"
+	},
+	{
+		title: "Capro USA",
+		url: "http://caprousa.org",
+		image: "capro-min.jpg",
+		from: "#FF4B2B",
+		to: "#FF416C"
+	}
+];
 
 export default function Experience() {
-	const state = [
-		{
-			title: "Kudi.ai",
-			url: "https://kudi.ai",
-			image: "kudi-min.jpg",
-			from: "#2193b0",
-			to: "#6dd5ed"
-		},
-		{
-			title: "Instant Cleaners",
-			url: "http://instantcleaners.com",
-			image: "cleaners-min.jpg",
-			from: "#FDC830",
-			to: "#F37335"
-		},
-		{
-			title: "Capro USA",
-			url: "http://caprousa.org",
-			image: "capro-min.jpg",
-			from: "#FF4B2B",
-			to: "#FF416C"
-		}
-	];
-
 	return (
 		<ExperienceWrapper>
 			<SectionHeader>Previous Projects</SectionHeader>
 			<CardContainer>
-				{state.map(project => (
+				{data.map(project => (
 					<Card key={project.title}>
 						<CardSide>
 							<CardSideFront>
