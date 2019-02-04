@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
 
 export const HeroWrapper = styled(Wrapper)`
 	@media (max-width: 430px) {
-		height: 90vh;
+		height: 85vh;
 		background: #ddd;
 		clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
 	}
