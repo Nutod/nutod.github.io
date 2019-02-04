@@ -16,8 +16,6 @@ import KudiBG from "../assets/kudi-min.png";
 import InstantCleanersBG from "../assets/cleaners-min.png";
 import CaproBG from "../assets/capro-min.png";
 
-// TODO: Add dynamic import for images for webpack to handle
-
 const data = [
 	{
 		title: "Kudi.ai",
