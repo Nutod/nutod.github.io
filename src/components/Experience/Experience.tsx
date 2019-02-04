@@ -14,6 +14,7 @@ import {
 } from "../styles/Card";
 
 // TODO: Add dynamic import for images for webpack to handle
+// TODO: Adjust the fonts
 
 export default function Experience() {
 	const state = [
