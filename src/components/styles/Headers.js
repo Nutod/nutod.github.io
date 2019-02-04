@@ -94,8 +94,7 @@ export const HeadingThree = styled.h3`
 export const SectionHeader = styled.h1`
 	-webkit-font-smoothing: antialiased;
 	color: #1d2b4c;
-	margin: 1rem;
-	margin-top: 1.5rem;
+	margin-top: 1.5rem 0 0 0;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 3.5rem;
