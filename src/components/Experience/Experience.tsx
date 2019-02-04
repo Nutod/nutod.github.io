@@ -12,7 +12,7 @@ import {
 	CardContent,
 	CardLink
 } from "../styles/Card";
-import HeroBG from "../assets/hero-bg.png";
+import KudiBG from "../assets/kudi-min.png";
 
 // TODO: Add dynamic import for images for webpack to handle
 // TODO: Convert images to png
@@ -21,7 +21,7 @@ const data = [
 	{
 		title: "Kudi.ai",
 		url: "https://kudi.ai",
-		image: HeroBG,
+		image: KudiBG,
 		from: "#2193b0",
 		to: "#6dd5ed"
 	},
