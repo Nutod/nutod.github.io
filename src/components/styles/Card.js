@@ -4,6 +4,7 @@ export const CardContainer = styled.div`
 	display: flex;
 	margin-top: 1rem;
 	padding: 5rem;
+	padding-top: 1.5rem;
 	justify-content: center;
 
 	@media (max-width: 1000px) {
