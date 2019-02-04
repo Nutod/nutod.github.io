@@ -13,32 +13,33 @@ import {
 	CardLink
 } from "../styles/Card";
 
+const data = [
+	{
+		title: "Burger Builder",
+		from: "#F0CB35",
+		to: "#C02425",
+		url: "http://burger-react-d3b90.firebaseapp.com"
+	},
+	{
+		title: "Teams App",
+		from: "#F15F79",
+		to: "#B24592",
+		url: "https://codesandbox.io/s/m5v40q9n2p"
+	},
+	{
+		title: "Robots App",
+		from: "#DBD5A4",
+		to: "#649173",
+		url: "https://codesandbox.io/s/xojv3zw5mp"
+	}
+];
+
 export default function SideProjects() {
-	const state = [
-		{
-			title: "Burger Builder",
-			from: "#F0CB35",
-			to: "#C02425",
-			url: "http://burger-react-d3b90.firebaseapp.com"
-		},
-		{
-			title: "Teams App",
-			from: "#F15F79",
-			to: "#B24592",
-			url: "https://codesandbox.io/s/m5v40q9n2p"
-		},
-		{
-			title: "Robots App",
-			from: "#DBD5A4",
-			to: "#649173",
-			url: "https://codesandbox.io/s/xojv3zw5mp"
-		}
-	];
 	return (
 		<SideProjectWrapper>
 			<SectionHeader>Side Projects</SectionHeader>
 			<CardContainer>
-				{state.map(project => (
+				{data.map(project => (
 					<Card>
 						<CardSide>
 							<CardSideFront>
