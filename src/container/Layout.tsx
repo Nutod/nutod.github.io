@@ -4,6 +4,8 @@ import Experience from "../components/Experience/Experience";
 import SideProjects from "../components/SideProjects/SideProjects";
 import Footer from "../components/Footer/Footer";
 
+// TODO: Add Component tests
+
 export default function Layout() {
 	return (
 		<>
